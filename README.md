@@ -89,10 +89,11 @@ Build the sentinel Docker image
 
 `docker-compose ps`
 
+```
 Name                    Command               State                                       Ports
 -----------------------------------------------------------------------------------------------
-
 redis_proxy_1     /docker-entrypoint.sh hapr ...   Up      0.0.0.0:8080->80/tcp,:::8080->80/tcp, 0.0.0.0:9911->8080/tcp,:::9911->8080/tcp
 redis_redis01_1   /etc/redis/redis-entrypoint.sh   Up      0.0.0.0:6380->6379/tcp,:::6380->6379/tcp
 redis_redis02_1   /etc/redis/redis-entrypoint.sh   Up      0.0.0.0:6381->6379/tcp,:::6381->6379/tcp
 redis_redis03_1   /etc/redis/redis-entrypoint.sh   Up      0.0.0.0:6382->6379/tcp,:::6382->6379/tcp
+```
