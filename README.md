@@ -97,3 +97,7 @@ redis_redis01_1   /etc/redis/redis-entrypoint.sh   Up      0.0.0.0:6380->6379/tc
 redis_redis02_1   /etc/redis/redis-entrypoint.sh   Up      0.0.0.0:6381->6379/tcp,:::6381->6379/tcp
 redis_redis03_1   /etc/redis/redis-entrypoint.sh   Up      0.0.0.0:6382->6379/tcp,:::6382->6379/tcp
 ```
+
+## Replication
+
+![redis_replication](img/redis_replication.png)
